@@ -1,0 +1,189 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.body {
+    background-color: rgb(216, 202, 202);
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+.title {
+    color: #ff4500;
+    background-color: rgb(233, 224, 224);
+    -webkit-box-shadow: 24px -2px 21px 26px rgba(239, 115, 13, 1);
+    -moz-box-shadow: 24px -2px 21px 26px rgba(239, 115, 13, 1);
+    box-shadow: 5px 5px 5px 5px rgba(239, 115, 13, 1);
+}
+
+.navigation__list {
+    list-style: none;
+}
+
+.navigation__link {
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 1.5;
+    transition: .3s;
+}
+
+.navigation__link:hover {
+    border-bottom: 2px solid;
+    outline: none;
+}
+
+.section__aboutMe {
+    border-color: rgb(216, 202, 202);
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin: 20px auto;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px 40px;
+    line-height: 1.5;
+}
+
+.section__interestedTitle {
+    border-color: rgb(216, 202, 202);
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin: 20px auto;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px 40px;
+    line-height: 1.5;
+}
+
+.section__subHeader {
+    color: black;
+    font-size: 35px;
+    font-style: italic;
+    text-shadow: 5px 5px 18px rgb(87, 72, 72);
+    line-height: 0.9;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(216, 202, 202);
+    -webkit-box-shadow: 30px 30px 22px -19px rgba(233, 100, 8, 1);
+    -moz-box-shadow: 30px 30px 22px -19px rgba(233, 100, 8, 1);
+    box-shadow: 30px 30px 22px -19px rgba(233, 100, 8, 1);
+}
+
+.section__container {
+    overflow-x: auto;
+}
+
+.table {
+    font-family: "arial";
+    font-size: 20px;
+    border-collapse: collapse;
+    max-width: 1000px;
+    margin: 50px auto;
+    overflow-x: auto;
+}
+
+.table__Cell {
+    font-size: 25px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: grey;
+    padding: 3px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table__Cell--note {
+    color: rgb(216, 202, 202);
+}
+
+.table__Header {
+    font-size: 25px;
+}
+
+.table__Row:hover {
+    font-size: 25px;
+    background-color: #ddd;
+}
+
+.table__Caption {
+    caption-side: bottom;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.section__image {
+    border-color: rgb(216, 202, 202);
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 10px;
+    -webkit-box-shadow: 30px 30px 22px -19px rgba(233, 100, 8, 1);
+    -moz-box-shadow: 30px 30px 22px -19px rgba(233, 100, 8, 1);
+    box-shadow: 30px 30px 22px -19px rgba(233, 100, 8, 1);
+}
+
+.button {
+    padding: 5px;
+    font-size: 25px;
+    -webkit-box-shadow: 24px -2px 21px -7px rgba(239, 115, 13, 1);
+    -moz-box-shadow: 24px -2px 21px -7px rgba(239, 115, 13, 1);
+    box-shadow: 24px 5px 21px -7px rgba(239, 115, 13, 1);
+}
+
+.section__button {
+    margin-top: 30px;
+    padding: 5px;
+    font-size: 25px;
+    -webkit-box-shadow: 24px -2px 21px -7px rgba(239, 115, 13, 1);
+    -moz-box-shadow: 24px -2px 21px -7px rgba(239, 115, 13, 1);
+    box-shadow: 24px 5px 21px -7px rgba(239, 115, 13, 1);
+}
+
+.footer {
+    color: black;
+    font-size: 20px;
+    font-style: italic;
+    text-shadow: 5px 5px 18px rgb(87, 72, 72);
+    line-height: 0.9;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(216, 202, 202);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    -webkit-box-shadow: 30px 30px 22px -19px rgba(233, 100, 8, 1);
+    -moz-box-shadow: 30px 30px 22px -19px rgba(233, 100, 8, 1);
+    box-shadow: 30px 30px 22px -19px rgba(233, 100, 8, 1);
+}
+
+.footer__Header {
+    color: black;
+    font-size: 20px;
+    font-style: italic;
+    text-shadow: 5px 5px 18px rgb(87, 72, 72);
+    line-height: 0.9;
+}
+
+.dark {
+    color: #eee;
+    background: rgb(10, 9, 9);
+}
+
+.orange {
+    color: #ff4500;
+}
