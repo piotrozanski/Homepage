@@ -1,5 +1,4 @@
 # Website about me
-![w-okularach.jpg](https://postimg.cc/CdFR0RLD)
 
 ## Demo
 https://piotrozanski.github.io/homepage/
