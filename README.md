@@ -1,5 +1,5 @@
 # Website about me
-![ja w okularach](https://github.com/piotrozanski/homepage/blob/main/images/w%20okularach.jpg?raw=true)
+![w-okularach.jpg](https://postimg.cc/CdFR0RLD)
 
 ## Demo
 https://piotrozanski.github.io/homepage/
